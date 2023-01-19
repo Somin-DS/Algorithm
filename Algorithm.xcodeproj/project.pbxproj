@@ -36,6 +36,9 @@
 		AB38081A28BE55C5001DBBFA /* 1546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1546.swift; sourceTree = "<group>"; };
 		AB4E9B682956C7BE004E42D4 /* 1978.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1978.swift; sourceTree = "<group>"; };
 		AB4E9B712956D8B3004E42D4 /* 2581.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2581.swift; sourceTree = "<group>"; };
+		AB635EDE2974CCE3000FCBDC /* VINU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VINU.swift; sourceTree = "<group>"; };
+		AB635EE02974D2C3000FCBDC /* 2738.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2738.swift; sourceTree = "<group>"; };
+		AB635EE12974D4B8000FCBDC /* 2566.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2566.swift; sourceTree = "<group>"; };
 		AB7D05CB287C43A6004A122C /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7D05CE287C43A6004A122C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AB86238E2891783600F71283 /* 2557.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2557.swift; sourceTree = "<group>"; };
@@ -125,6 +128,23 @@
 			path = Step8;
 			sourceTree = "<group>";
 		};
+		AB635EDD2974CCD0000FCBDC /* CodingTest */ = {
+			isa = PBXGroup;
+			children = (
+				AB635EDE2974CCE3000FCBDC /* VINU.swift */,
+			);
+			path = CodingTest;
+			sourceTree = "<group>";
+		};
+		AB635EDF2974D290000FCBDC /* Step9 */ = {
+			isa = PBXGroup;
+			children = (
+				AB635EE02974D2C3000FCBDC /* 2738.swift */,
+				AB635EE12974D4B8000FCBDC /* 2566.swift */,
+			);
+			path = Step9;
+			sourceTree = "<group>";
+		};
 		AB7D05C2287C43A6004A122C = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +164,7 @@
 		AB7D05CD287C43A6004A122C /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				AB635EDD2974CCD0000FCBDC /* CodingTest */,
 				AB7D05CE287C43A6004A122C /* main.swift */,
 				AB86238C2891779300F71283 /* BOJ */,
 			);
@@ -161,6 +182,7 @@
 				ABE9D57628D33E080058DBFF /* Step6 */,
 				ABFC0F4B28E06AD200C8E9BF /* Step7 */,
 				AB4E9B672956C78A004E42D4 /* Step8 */,
+				AB635EDF2974D290000FCBDC /* Step9 */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
